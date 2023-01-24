@@ -11,6 +11,7 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.blueGrey.shade200,
       floatingActionButton: FloatingActionButton(
         onPressed: setMessage,
+        //tooltip: 'Clickeame',
         child: const Icon(Icons.add),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
